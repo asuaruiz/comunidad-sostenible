@@ -1,0 +1,292 @@
+/* Inserta tu codigo aqui */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/*ESTILOS DEL HEADER*/
+ul {
+	list-style: none;
+	text-decoration: none;
+	padding-top: 10%;
+	padding-left: 5%;
+	font-size: 1.2em;
+}
+li {
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	color: #4D4D4D;
+}
+.border-lista {
+	border-right: 1px solid #4D4D4D;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+.sin-borde {
+	padding-right: 3%;
+	padding-left: 3%;
+}
+/*ESTILOS DE LA SECTION BANNER1 SEMILLA*/
+.banner1 {
+	background-image: url(../img/semilla.jpg);
+	height: 50vh;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.banner2 {
+	background-color: #F2F2F2;
+	height:200px;
+	text-align: center;
+}
+/*BANNER2 PARRAFO*/
+.centrar-parrafo {
+	margin: 5% 15%;
+}
+/*ESTILOS SECCION MISION Y VISION*/
+.banner3 {
+	text-align: center;
+}
+.logo-vision, .logo-mision {
+	height: 150px;
+	width: auto;
+	margin-top: 10%;
+}
+.titulo-mision, .titulo-vision {
+	font-weight: bolder;
+	margin-top: 2%;
+}
+.parrafo-mision, .parrafo-vision {
+	padding: 2% 15%;
+	margin-bottom: 10%;
+}
+/*ESTILOS SECCION BANNER4 METODOLOGIA*/
+.banner4 {
+	height: 60vh;
+}
+.fondo4-1 {
+	background-image: url(../img/metodo.jpg);
+	height: 60vh;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.fondo4-2 {
+	background-image: url(../img/fondo.jpg);
+	height: 60vh;
+	background-position: center;
+	background-size: 120%;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #fff;
+}
+.icon-met {
+	height: 15%;
+	width: auto;
+	margin-top: 12%;
+}
+.titulo-met {
+	font-weight: bolder;
+	font-size: 2em;
+	margin: 2%
+}
+.parrafo-met {
+	font-size: 1.1em;
+	margin: 2% 10%;
+}
+/*ESTILOS BANNER4 SERVICIOS*/
+.banner4 {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.titulo-servicios {
+	font-size: 2em;
+}
+.parrafo-servicios{
+	padding: 1% 10%;
+}
+.centrar-contenedor {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.centrar-logo {
+	padding: 1% 5%;
+}
+.logo-servicio	{
+	height: 120px;
+	width: auto;
+	margin: 1%;
+}
+.sub-servicios {
+	color: #5E8039;
+	padding: 5% 0;
+	font-size: 1.1em;
+}
+/*ESTILOS BANNER5 PROYECTOS*/
+.banner5 {
+	background-color: #5E8039;
+	color: #fff;
+	text-align: center;
+}
+.banner5-1 {
+	text-align: left;
+}
+.imagenproyecto1 {
+	background-image: url(../img/fotos/img-0352.jpg);
+	height: 300px;
+	width: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	margin: 5% 0;
+}
+.titulo-proyecto1 {
+	font-size: 1.5em;
+	margin:1em 0;
+	margin-top: 5%;
+}
+.imagenproyecto2 {
+	background-image: url(../img/fotos/img-9246.jpg);
+	height: 300px;
+	width: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	margin: 5% 0;
+}
+.centrar-contenido {
+	margin: 5% 0;
+	padding-left: 3%;
+}
+.titulo-proyecto {
+	font-size: 1.5em;
+	margin:1em 0;
+}
+.sub-proyecto {
+	font-size: 1.2em;
+	margin: 1em 0;
+}
+.parrafo-proyecto {
+
+}
+/*ESTILOS BANNER6 EQUIPO*/
+.banner6 {
+	text-align: center;
+}
+.titulo1equipo {
+	font-size: 2em;
+	color: #5E8039;
+	margin-top: 5%;
+}
+.foto-equipo1 {
+	height: 200px;
+	width: 200px;
+	border-radius: 200px;
+	margin: 0 auto;	
+	background-image: url(../img/fotos/equipo2.jpg);
+	background-size: 120%;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.foto-equipo2 {
+	height: 200px;
+	width: 200px;
+	border-radius: 200px;
+	margin: 0 auto;
+	background-image: url(../img/fotos/equipo3.jpg);
+	background-size: 120%;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.nombre-equipo {
+	font-size: 1.5em;
+	margin: 5% 0;
+}
+.parrafo-equipo {
+	padding: 0 10%;
+}
+.redes-equipo {
+	height: 40px;
+	width: auto;
+	margin: 2%;
+}
+/*ESTILOS BANNER7 BLOG*/
+.banner7 {
+	background-image: url(../img/fondo2.jpg);
+	height: 70vh;
+	text-align: center;
+}
+.titulo-blog {
+	font-size: 2em;
+	margin: 3% 0;
+}
+.slider-icon1, .slider-icon2 {
+	height: 40px;
+	width: auto;
+	margin-top: 30vh;
+}
+.slider-icon1 {
+	padding-right: 2em;
+	margin-left: 3em;
+}
+.slider-icon2 {
+	padding-right: 2em;
+}
+.imagen-blog {
+	height: 220px;
+	width: 300px;
+}
+.centrar-blog {
+	margin-right: 2em;
+	margin-left: 0.1em;
+}
+/*ESTILOS BANNER8 REDES*/
+.banner8 {
+	background-color: #4D4D4D;
+	text-align: center;
+	height: 50vh;
+	padding-left: 10%;
+}
+.caja-redes {
+	border: 1px solid white;
+	margin: 5% 0;
+	height: 250px;
+	width: 250px;
+	text-align: left;
+}
+.icono-red	{
+	height: 40;
+	width: 40px;
+	float: right;
+	margin-right: 5%;
+	margin-top: -25%;
+}
+.titulo-redes {
+	font-size: 1.5em;
+	margin: 1em;
+	color: #fff;
+}
+/*ESTILOS BANNER9 FOOTER*/
+.banner9 {
+	height: 20vh;
+	color: #4D4D4D;
+}
+.banner9-1 {
+	text-align: left;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.banner9-2 {
+	text-align: right;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.parrafo-yello-footer {
+	color: #fac60e;
+}
+.parrafo-bolder-footer {
+	font-weight: bolder;
+}
